@@ -1,0 +1,181 @@
+@media {
+    
+/*Topper Styles*/
+#topper {
+    background-color:#4A6D7C;
+    text-align:left;
+}
+
+#headshot {
+    border-radius: 500px;
+    width:100%;
+    margin:40px 0px 40px 0px;
+}
+
+h1 {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    color:#C6C5B9;
+    text-transform:uppercase;    
+    font-size:90px;
+    line-height:normal;
+    margin:40px 40px 20px 20px;
+    text-align: right;
+}
+
+h2 {
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight:400;
+    text-transform: uppercase;
+    font-size:50px;
+    margin:0px 40px 0px 20px;
+    text-align:right;
+}
+
+
+#button {
+    background-color:#E56B6F;
+    border:0px;
+    padding:10px 30px 10px 30px;
+    border-radius: 10px;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform:uppercase;
+    font-weight:600;
+    font-size:30px;
+    margin:80px 0px 40px 0px;
+    width:100%;
+}
+
+#button a {
+    color:white;
+    text-decoration: none;
+}
+
+#button:hover {
+    background-color:#B56576;
+}
+
+/*Nav Styles*/
+.nav {
+    background-color:#62929E;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight:600;
+    padding:0px 0px 0px 0px;
+    margin: 0px;
+}
+
+.nav a {
+    color: white;
+    font-size:20px;
+}
+
+.nav a:hover {
+    color: white;
+    text-decoration: underline;
+}
+    
+.nav-item {
+    width:100%;
+    }
+
+/*Body Styles*/
+#body {
+    background-color:#4A6D7C;
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+    padding-bottom:80px;
+}
+
+h3 {
+    font-size: 40px;
+    font-weight:900;
+    text-transform:uppercase;
+    padding:80px 20px 7px 20px;
+    border-bottom: 3px solid #E56B6F;
+    margin-bottom:20px;
+}
+
+.extraspace {
+    margin-top:40px;
+}
+
+#title {
+    font-size:30px;
+    font-weight:600;
+    color:#C6C5B9;
+    text-transform:uppercase;
+    padding:0px 0px 0px 20px;
+    margin: 0px 0px 10px 0px;
+    line-height:1.4;
+}
+
+#company {
+    font-size:25px;
+    font-weight:600;
+    padding:0px 0px 0px 20px;
+    margin: 0px 0px 10px 0px;
+    font-style:italic;
+}
+
+#date {
+    font-size:25px;
+    font-weight:400;
+    padding:0px 0px 0px 20px;
+    margin: 0px;
+}
+
+#description {
+    font-size:20px;
+    font-weight:400;
+    padding:0px 20px 0px 20px;
+    margin: 0px;
+}
+    
+li {
+    font-size:20px;
+    font-weight:400;
+    padding: 7px;
+    margin: 0px 20px 0px 20px;
+}
+
+/*Footer Styles*/
+#footer {
+    font-family: 'Noto Sans', sans-serif;
+    font-size:15px;
+    font-style:italic;
+    background-color:#B56576;
+    color:white;
+    padding: 20px 0px 20px 20px;
+}
+}
+
+
+
+@media (min-width: 576px) {
+    
+.nav-item {
+    width:inherit;
+    }
+
+}
+
+
+
+@media (min-width: 992px) {
+    
+#headshot {
+    margin:40px 0px 40px 40px;
+}
+
+#button {
+    margin:80px 0px 40px 100px;
+    width:300px;
+}
+
+.nav-item {
+    width:inherit;
+}
+    
+}

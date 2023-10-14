@@ -1,0 +1,107 @@
+#footer {
+    background-color:#698996;
+    color:white; 
+    padding:20px 0px 20px 20px; 
+}
+
+h1 {
+    font-size:80px;
+    font-family:impact; 
+    color:black; 
+    margin:20px; 
+    text-align: center;
+    padding:60px 30px 10px 30px; 
+    text-transform: uppercase; 
+}
+h2 {
+    font-size:50px; 
+    font-family:impact; 
+    color:white; 
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+#title {
+    font-weight:bold; 
+}
+#headshot {
+    border-radius: 500px;
+    width:100%;
+    margin:30px; 
+}
+#topper {
+    background-color: #C9C5BA;
+    text-align: right
+}
+#button {
+    background-color:#EBBAB9;
+    border:0px;
+    border-radius: 10px;
+    padding:10px 30px 10px 30px;
+    text-transform:uppercase;
+    margin:40px 20px 10px 0px;
+    width:300px; 
+}
+#button:hover {
+    background-color:#698996;
+}
+#button a {
+    color:black;
+    text-decoration: none;
+    font-family: impact; 
+    font-size: 30px;
+}
+#navbarSupportedContent {
+    font-family: helvetica neue; 
+    font-weight: bold;
+    color: black; 
+}
+h3 {
+    font-family: helvetica neue; 
+    font-weight: bold; 
+    text-align: center;
+}
+#skills {
+    text-align: center;
+    list-style-position: inside
+}
+@media {
+    h1 {
+        font-size: 50px; 
+    }
+    h2 {
+        font-size: 30px; 
+    }
+    #headshot {
+        width: 300px; 
+    }
+    
+}
+
+@media (min-width: 576px) {
+    h1 {
+        text-align: right; 
+        font-size: 50px; 
+    }
+    h2  {
+        text-align: right; 
+        font-size: 40px; 
+    }
+    #headshot {
+        width: 280px; 
+        padding: 10px; 
+    } 
+    #button {
+        width: 250px;  
+    }
+    
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 65px; 
+    }
+    h2 {
+    font-size: 45px; 
+    }
+}
