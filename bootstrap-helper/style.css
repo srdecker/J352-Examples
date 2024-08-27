@@ -1,0 +1,90 @@
+/*xsmall*/
+@media {
+        h2 {
+        font-size: 20px;
+    }
+}
+
+/*small*/
+@media (min-width: 576px) {
+    h2 {
+        font-size: 30px;
+    }
+}
+/*medium*/
+@media (min-width: 768px) {
+    h2 {
+        font-size: 45px;
+    }
+}
+
+/*large*/
+@media (min-width: 992px) {
+    h2 {
+        font-size: 60px;
+    }
+}
+/*xlarge*/
+@media (min-width: 1200px) {
+    h2 {
+        font-size: 72px;
+    }
+}
+/*xxlarge*/
+@media (min-width: 1400px) {
+    h2 {
+        font-size: 100px;
+    }
+}
+
+
+.container-fluid {
+    background-color:darkred;
+    color:white;
+}
+
+.container {
+    background-color:darkorange;
+    color:white;
+}
+
+.container-sm {
+    background-color:yellow;
+    color:black;
+}
+
+.container-md {
+    background-color:green;
+    color:white;
+}
+
+.container-lg {
+    background-color:blue;
+    color:white;
+}
+
+.container-xl {
+    background-color:purple;
+    color:white;
+}
+
+.container-xxl {
+    background-color: black;
+    color: white;
+}
+
+.container-fluid .col-6 {
+    background-color: red;
+}
+
+.container-fluid .col-sm-6 {
+    background-color: deeppink;
+}
+
+.container .col-6 {
+    background-color: orange;
+}
+
+.container .col-sm-6 {
+    background-color: coral;
+}
