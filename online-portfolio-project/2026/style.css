@@ -1,0 +1,78 @@
+/*Color palette
+ * Black - #0a090c
+ * Gray - #f0edee
+ * Dark turqouise - #07393c
+ * */
+
+/*This is my first media query. It is my default media query. It includes all CSS rules that I want to apply to every screen that views my project, no matter the size*/
+@media screen {
+    #topper {
+        background-color: #07393c;
+    }
+
+    #headshot {
+        width: 100%;
+        border-radius: 45px;
+        border: 8px solid #f0edee;
+    }
+
+    .fullwidth {
+        padding: 0px;
+    }
+
+    h1 {
+        font-family: "Host Grotesk", sans-serif;
+        letter-spacing: -0.7px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #f0edee;
+        padding: 10px 0px 0px 20px;
+        font-size: 50px;
+    }
+
+    button {
+        border-radius: 45px;
+        border: none;
+        width: 100px;
+    }
+
+    .job {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 3px solid blue;
+    }
+
+    .nav {
+        justify-content: center;
+    }
+
+    .nav a {
+        color: #07393c;
+        text-decoration: none;
+    }
+
+    .nav a:hover {
+        font-weight: bold;
+        border-bottom: 1px solid blue;
+    }
+}
+
+/*This is my next media query. It includes all the ADJUSTMENTS I want to make to my CSS rules for any screens that are 576px wide or bigger*/
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 80px;
+    }
+
+    button {
+        width: 200px;
+    }
+}
+
+/*This is my next media query. It includes all the ADJUSTMENTS I want to make to my CSS rules for any screens that are 768px wide or bigger*/
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 100px;
+    }
+}
