@@ -1,0 +1,11 @@
+OVERALL
+- Floating, things outside the story well (class overrides)
+- STILL NEED GUIDANCE: Full screen photos (margins)
+
+- Pull quotes
+- Embedding, embedding video, styling embeds
+- Adding a video (text on top)
+
+
+FLOURISH
+- Slideshow/photo gallery

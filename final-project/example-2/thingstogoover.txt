@@ -1,0 +1,20 @@
+LAYOUT
+- Paragraphs - DONE
+- Images - DONE
+- Bootstrap columns - DONE
+- Width (not offset) - DONE
+
+
+TOPPER
+- Background image (and on column) - DONE
+- Headline with box behind it - DONE
+- Height (use view height, vh) - DONE
+- Margin or padding - DONE
+
+ETC
+- Pull quote - DONE
+- Media queries - DONE
+
+- Flourish story, map
+- float???
+- scrollytelling???
